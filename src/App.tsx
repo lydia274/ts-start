@@ -10,6 +10,8 @@ function App() {
     <>
       <h1>TS components library</h1>
       <p>...will appear below</p>
+      <div className="card"></div>
+      <div className="card"></div>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
