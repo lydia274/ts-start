@@ -1,7 +1,6 @@
 import { useState } from "react"
-import reactLogo from "./assets/react.svg"
-import viteLogo from "/vite.svg"
 import "./App.css"
+import AddArticle from "./components/AddArticle"
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,7 +9,9 @@ function App() {
     <>
       <h1>TS components library</h1>
       <p>...will appear below</p>
-      <div className="card"></div>
+      <div className="card">
+        <AddArticle />
+      </div>
       <div className="card"></div>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>

@@ -37,7 +37,8 @@
   padding: 2em;
   width: 30vw;
   height: 30vh;
-  background-color: black;
+  background-color: whitesmoke;
+  border: 1px solid black;
   border-radius: 12px;
 }
 
